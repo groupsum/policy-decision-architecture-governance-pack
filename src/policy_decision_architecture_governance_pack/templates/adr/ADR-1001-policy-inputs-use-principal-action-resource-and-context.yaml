@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "adr",
+  "id": "adr:policy-inputs-use-principal-action-resource-and-context",
+  "number": 1001,
+  "slug": "policy-inputs-use-principal-action-resource-and-context",
+  "title": "Policy Inputs Use Principal Action Resource And Context",
+  "status": "accepted",
+  "origin": "extension-pack",
+  "summary": "Authorization requests use explicit principal, action, resource, and context inputs.",
+  "body": "Authorization requests use explicit principal, action, resource, and context inputs.",
+  "decision_date": "2026-08-10",
+  "references": [
+    "https://www.oasis-open.org/standard/xacmlv3-0/"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "pdp",
+    "pep",
+    "pip",
+    "pap",
+    "authorization-decision"
+  ]
+}

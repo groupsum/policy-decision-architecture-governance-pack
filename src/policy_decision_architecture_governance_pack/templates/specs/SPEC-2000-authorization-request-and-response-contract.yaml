@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "spec",
+  "id": "spc:authorization-request-and-response-contract",
+  "number": 2000,
+  "slug": "authorization-request-and-response-contract",
+  "title": "Authorization Request And Response Contract",
+  "status": "accepted",
+  "origin": "extension-pack",
+  "summary": "Defines typed authorization requests and allow, deny, error, obligation, and explanation responses.",
+  "body": "## Requirements\n\n- Require principal, action, resource, context, policy version, and tenant scope.\n- Return one explicit decision with determining policy information.\n- Treat missing mandatory inputs as denial or error, never implicit allow.",
+  "decision_date": "2026-08-10",
+  "references": [
+    "https://www.oasis-open.org/standard/xacmlv3-0/"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "pdp",
+    "pep",
+    "pip",
+    "pap",
+    "authorization-decision"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:policy-decisions-use-explicit-pdp-pep-pip-pap-boundaries",
+    "adr:policy-inputs-use-principal-action-resource-and-context",
+    "adr:xacml-is-a-reference-architecture-not-a-required-language",
+    "adr:policy-gateways-are-enforcement-points"
+  ]
+}

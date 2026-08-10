@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "spec",
+  "id": "spc:permission-action-and-resource-taxonomy-contract",
+  "number": 2002,
+  "slug": "permission-action-and-resource-taxonomy-contract",
+  "title": "Permission Action And Resource Taxonomy Contract",
+  "status": "accepted",
+  "origin": "extension-pack",
+  "summary": "Defines common action, resource, permission, scope, and naming semantics.",
+  "body": "## Requirements\n\n- Use stable machine-readable action and resource identifiers.\n- Separate permission definition from role, attribute, and relationship assignments.\n- Version incompatible taxonomy changes.",
+  "decision_date": "2026-08-10",
+  "references": [
+    "https://www.oasis-open.org/standard/xacmlv3-0/"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "pdp",
+    "pep",
+    "pip",
+    "pap",
+    "authorization-decision"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:policy-decisions-use-explicit-pdp-pep-pip-pap-boundaries",
+    "adr:policy-inputs-use-principal-action-resource-and-context",
+    "adr:xacml-is-a-reference-architecture-not-a-required-language",
+    "adr:policy-gateways-are-enforcement-points"
+  ]
+}

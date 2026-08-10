@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "adr",
+  "id": "adr:policy-gateways-are-enforcement-points",
+  "number": 1003,
+  "slug": "policy-gateways-are-enforcement-points",
+  "title": "Policy Gateways Are Enforcement Points",
+  "status": "accepted",
+  "origin": "extension-pack",
+  "summary": "Policy gateways enforce decisions but do not independently constitute a complete authorization system.",
+  "body": "Policy gateways enforce decisions but do not independently constitute a complete authorization system.",
+  "decision_date": "2026-08-10",
+  "references": [
+    "https://www.oasis-open.org/standard/xacmlv3-0/"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "pdp",
+    "pep",
+    "pip",
+    "pap",
+    "authorization-decision"
+  ]
+}

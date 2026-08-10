@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "spec",
+  "id": "spc:entitlement-to-policy-input-contract",
+  "number": 2004,
+  "slug": "entitlement-to-policy-input-contract",
+  "title": "Entitlement To Policy Input Contract",
+  "status": "accepted",
+  "origin": "extension-pack",
+  "summary": "Defines how provisioned entitlements become typed authorization inputs.",
+  "body": "## Requirements\n\n- Preserve source, subject, product, scope, state, and expiry.\n- Do not equate commercial entitlement with application permission.\n- Reject stale, ambiguous, or revoked entitlement inputs.",
+  "decision_date": "2026-08-10",
+  "references": [
+    "https://www.oasis-open.org/standard/xacmlv3-0/"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "pdp",
+    "pep",
+    "pip",
+    "pap",
+    "authorization-decision"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:policy-decisions-use-explicit-pdp-pep-pip-pap-boundaries",
+    "adr:policy-inputs-use-principal-action-resource-and-context",
+    "adr:xacml-is-a-reference-architecture-not-a-required-language",
+    "adr:policy-gateways-are-enforcement-points"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "adr",
+  "id": "adr:xacml-is-a-reference-architecture-not-a-required-language",
+  "number": 1002,
+  "slug": "xacml-is-a-reference-architecture-not-a-required-language",
+  "title": "XACML Is A Reference Architecture Not A Required Language",
+  "status": "accepted",
+  "origin": "extension-pack",
+  "summary": "XACML supplies reference vocabulary without requiring XACML as the implementation language.",
+  "body": "XACML supplies reference vocabulary without requiring XACML as the implementation language.",
+  "decision_date": "2026-08-10",
+  "references": [
+    "https://www.oasis-open.org/standard/xacmlv3-0/"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "pdp",
+    "pep",
+    "pip",
+    "pap",
+    "authorization-decision"
+  ]
+}

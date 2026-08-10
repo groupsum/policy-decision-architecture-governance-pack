@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "adr",
+  "id": "adr:policy-decisions-use-explicit-pdp-pep-pip-pap-boundaries",
+  "number": 1000,
+  "slug": "policy-decisions-use-explicit-pdp-pep-pip-pap-boundaries",
+  "title": "Policy Decisions Use Explicit PDP PEP PIP PAP Boundaries",
+  "status": "accepted",
+  "origin": "extension-pack",
+  "summary": "Authorization systems explicitly separate administration, information, decision, and enforcement responsibilities.",
+  "body": "Authorization systems explicitly separate administration, information, decision, and enforcement responsibilities.",
+  "decision_date": "2026-08-10",
+  "references": [
+    "https://www.oasis-open.org/standard/xacmlv3-0/"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "pdp",
+    "pep",
+    "pip",
+    "pap",
+    "authorization-decision"
+  ]
+}

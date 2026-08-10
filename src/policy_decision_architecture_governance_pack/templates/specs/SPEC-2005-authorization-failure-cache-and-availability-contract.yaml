@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "spec",
+  "id": "spc:authorization-failure-cache-and-availability-contract",
+  "number": 2005,
+  "slug": "authorization-failure-cache-and-availability-contract",
+  "title": "Authorization Failure Cache And Availability Contract",
+  "status": "accepted",
+  "origin": "extension-pack",
+  "summary": "Defines timeouts, component failure, decision caching, invalidation, and availability behavior.",
+  "body": "## Requirements\n\n- Fail closed for unavailable mandatory decision inputs.\n- Bound cache entries by policy, identity, relationship, and entitlement freshness.\n- Invalidate decisions after relevant policy or data changes.",
+  "decision_date": "2026-08-10",
+  "references": [
+    "https://www.oasis-open.org/standard/xacmlv3-0/"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "pdp",
+    "pep",
+    "pip",
+    "pap",
+    "authorization-decision"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:policy-decisions-use-explicit-pdp-pep-pip-pap-boundaries",
+    "adr:policy-inputs-use-principal-action-resource-and-context",
+    "adr:xacml-is-a-reference-architecture-not-a-required-language",
+    "adr:policy-gateways-are-enforcement-points"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "spec",
+  "id": "spc:policy-gateway-enforcement-contract",
+  "number": 2003,
+  "slug": "policy-gateway-enforcement-contract",
+  "title": "Policy Gateway Enforcement Contract",
+  "status": "accepted",
+  "origin": "extension-pack",
+  "summary": "Defines enforcement placement, obligations, bypass prevention, and downstream propagation.",
+  "body": "## Requirements\n\n- Enforce before protected side effects.\n- Honor mandatory obligations or deny.\n- Prevent alternate routes from bypassing the PEP.",
+  "decision_date": "2026-08-10",
+  "references": [
+    "https://www.oasis-open.org/standard/xacmlv3-0/"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "pdp",
+    "pep",
+    "pip",
+    "pap",
+    "authorization-decision"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:policy-decisions-use-explicit-pdp-pep-pip-pap-boundaries",
+    "adr:policy-inputs-use-principal-action-resource-and-context",
+    "adr:xacml-is-a-reference-architecture-not-a-required-language",
+    "adr:policy-gateways-are-enforcement-points"
+  ]
+}

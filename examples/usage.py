@@ -1,7 +1,9 @@
-"""Resolve and read a packaged specification without synchronizing it."""
+"""Find a specification and its downstream path in the installed manifest."""
 
-from policy_decision_architecture_governance_pack import load_document_manifest, read_packaged_document_text
+from policy_decision_architecture_governance_pack import load_document_manifest
 
-spec = next(row for row in load_document_manifest("spec") if row["id"] == "spc:authorization-request-and-response-contract")
-document = read_packaged_document_text("spec", spec["filename"])
-assert spec["id"] in document
+specification = next(
+    row for row in load_document_manifest("spec")
+    if row["id"] == "spc:authorization-request-and-response-contract"
+)
+assert specification["target_path"] == ".ssot/specs/SPEC-2000-authorization-request-and-response-contract.yaml"
